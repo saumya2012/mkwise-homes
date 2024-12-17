@@ -1,0 +1,46 @@
+.countdown-title {
+  text-transform: uppercase;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.countdown-item {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-number {
+  font-size: 3em;
+  font-weight: bold;
+  color: #333;
+}
+
+.countdown-label {
+  font-size: 1.2em;
+  color: #666;
+}
+
+@media (max-width: 768px) { 
+  .countdown-container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .countdown-item:nth-child(-n+2) { 
+    order: 1;
+  }
+
+  .countdown-item:nth-child(n+3) {
+    order: 2;
+  }
+}
