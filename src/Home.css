@@ -1,0 +1,88 @@
+.hero-content { /* Changed selector to match the new class name */
+  position: absolute;
+  inset: 90px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 3;
+}
+
+/*
+.carousel-inner {
+  width: 100%;
+  
+}
+.carousel-item {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+/* .carousel-item:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.hero .carousel-container {
+  position: absolute;
+  inset: 60px 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 3;
+}
+
+@media (max-width: 768px) {
+  .hero .carousel-container {
+    inset: 60px 20px; 
+  }
+}
+
+.hero .carousel-caption p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400; 
+}
+
+.hero .carousel-caption h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.hero .carousel-caption h2 span {
+  display: block;
+  font-size: 2rem;
+  font-weight: 400; 
+}
+
+.btn-get-started {
+  background-color: #00b4d8;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-get-started:hover {
+  background-color: #0077b6;
+}
+
+.hero .carousel-control-prev {
+  justify-content: flex-start;
+}
+
+.hero .carousel-control-next {
+  justify-content: flex-end;
+} */

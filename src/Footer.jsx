@@ -20,7 +20,7 @@ function Footer() {
         </div>
 
         <div className="mb-6 md:mb-0 md:w-1/4"> 
-          <div className="flex items-center">
+          <div className="flex items-center pb-2">
             <h3 className="text-lg font-bold text-center md:text-left text-primary-600">Quick Links</h3>
           </div>
           <ul className="list-none p-0">
@@ -36,7 +36,7 @@ function Footer() {
           </ul>
         </div>
         <div className="md:w-1/4">
-          <div className="flex items-center"> 
+          <div className="flex items-center pb-2"> 
             <h3 className="text-lg font-bold text-center md:text-left">Contact Info</h3> 
           </div>
           <div className="flex flex-col items-start">
@@ -49,7 +49,7 @@ function Footer() {
             </div>
             <div className="flex items-center mb-2">
               <i className="fa-solid fa-envelope mr-2"></i> 
-              <a href="mailto:info@asklettings.co.uk" className="cursor-pointer">contact@mkwisefinancial.com</a>
+              <a href="mailto:info@asklettings.co.uk" className="cursor-pointer break-all">contact@mkwisefinancial.com</a>
             </div>
             <p className="flex items-start">
               <i className="fas fa-map-marker-alt mr-2 mt-1"></i>
