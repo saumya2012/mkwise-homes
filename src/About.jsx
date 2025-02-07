@@ -18,13 +18,7 @@ function About() {
         <div className="container mx-auto px-6 py-16">
           <div className="flex flex-col items-center">
             <h1 className="text-4xl font-bold mb-4">About Us</h1>
-            <p className="text-lg text-primary-600 text-center">
-              MKWise Homes is a leading property solutions provider based in
-              Milton Keynes and Greater London. We specialise in helping
-              individuals and families find their dream homes, offering a
-              comprehensive range of services to ensure a smooth and
-              stress-free experience.
-            </p>
+            <p className="text-lg text-primary-600 text-center">MKWise Homes is a trusted provider of property solutions, offering seamless and tailored housing services across Milton Keynes and Greater London. Whether you&apos;re a landlord seeking hassle-free property management, an investor looking to maximize returns, or a tenant searching for the perfect home, we are here to simplify the process.</p>
           </div>
         </div>
       </section>
@@ -35,7 +29,7 @@ function About() {
         <div className="container mx-auto px-6">
           <h2 className="text-5xl font-bold mb-4 text-center uppercase">Our Mission</h2>
           <p className="text-2xl text-secondary-600 text-center font-bold">
-            To simplify the property search and transaction process, providing a seamless and stress-free experience for our clients while delivering tailored solutions and expert advice.
+            To provide innovative, stress-free property solutions by leveraging our expertise and local market knowledge. We strive to create value for landlords, investors, and tenants by delivering reliable services, expert advice, and comprehensive property management solutions.
           </p>
         </div>
       </section>
@@ -45,15 +39,13 @@ function About() {
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-4">Our Expertise</h2>
-              <p className="text-lg text-gray-700">
-                With years of experience in the real estate market, MKWise Homes has established a strong reputation for providing exceptional service and tailored solutions. Our team of dedicated property experts possesses in-depth knowledge of the local market, ensuring that we can guide you towards the perfect property match.
-                <br />
-                <br />
-                We understand that buying or selling a property can be a significant decision. That&apos;s why we&apos;re committed to providing personalised support and guidance every step of the way.
-                <br />
-                <br />
-                Based in Milton Keynes and Greater London, we have an intimate understanding of these dynamic property markets. Our local expertise allows us to provide valuable insights and guidance, whether you&apos;re looking to buy, sell, or invest in property in these areas.
-              </p>
+              <p className="text-lg text-gray-700">At MKWise Homes, we specialise in providing landlords with a seamless and stress-free property management experience. With extensive expertise in the rental market and strong collaborations with local authorities, we ensure a secure and consistent rental income—regardless of tenant defaults or vacancies—through our guaranteed rent scheme.</p>
+              <br />
+              <br />
+              <p className="text-lg text-gray-700">Our mission is to simplify the letting process, offering landlords complete peace of mind while maximising their property investments without the usual risks and challenges.</p>
+              <br />
+              <br />
+              <p className="text-lg text-gray-700">We pride ourselves on our flexible and adaptive approach, making informed decisions tailored to each situation. Guided by our core values of professionalism, reliability, and integrity, we are committed to delivering quality service and building long-term relationships with our clients.</p>
             </div>
             <div className="md:w-1/2">
               <img src={AboutUsImg1} alt="About Us img" className="w-full rounded-lg shadow-md" />
@@ -69,39 +61,49 @@ function About() {
               <img src={AboutUsImg3} alt="About Us img" className="w-full rounded-lg shadow-md" />
             </div>
             <div className="md:w-1/2">
-              <h2 className="text-3xl font-bold mb-4">Why Choose Us</h2>
-              <p className="text-lg text-gray-700 mb-4">Choosing the right partner is crucial for finding your dream home. At MKWise Homes, we stand out for the following reasons:</p>
+              <h2 className="text-3xl font-bold mb-4">Our Expertise</h2>
+              <p className="text-lg text-gray-700 mb-4">With years of experience in the real estate industry, our dedicated team has built a strong reputation for delivering high-quality property solutions. We specialise in:</p>
+
               <div className="icon-box mb-6 flex items-center flex-wrap">
                 <div className="icon mr-4 text-2xl">
                   <i className="fas fa-check-circle text-secondary-600"></i>
                 </div>
                 <h4 className="font-bold text-lg mb-2">
-                  Tailored Solutions
+                Guaranteed Rent Services
                 </h4>
-                <p className="text-gray-700">
-                  We don&apos;t offer one-size-fits-all solutions. We&apos;ll work closely with you to understand your unique needs and provide customized solutions.
-                </p>
+                <p className="text-gray-700">Enjoy peace of mind with fixed rental income, regardless of occupancy status.</p>
               </div>
+
               <div className="icon-box mb-6 flex items-center flex-wrap">
                 <div className="icon mr-4 text-2xl">
-                  <i className="fas fa-chart-line text-secondary-600"></i>
-                </div>
-                <h4 className="font-bold text-lg mb-2">Local Expertise</h4>
-                <p className="text-gray-700">
-                  Our team of property experts possesses in-depth knowledge of the local market and a proven track record of helping clients find their dream homes.
-                </p>
-              </div>
-              <div className="icon-box mb-6 flex items-center flex-wrap">
-                <div className="icon mr-4 text-2xl">
-                  <i className="fas fa-users text-secondary-600"></i>
+                  <i className="fas fa-check-circle text-secondary-600"></i>
                 </div>
                 <h4 className="font-bold text-lg mb-2">
-                  Customer Focus
+                Property Management
                 </h4>
-                <p className="text-gray-700">
-                  Your satisfaction is our top priority. We strive to exceed your expectations and build long-lasting relationships with our clients.
-                </p>
+                <p className="text-gray-700">We handle everything from tenant sourcing to maintenance, ensuring your property is well-managed.</p>
               </div>
+
+              <div className="icon-box mb-6 flex items-center flex-wrap">
+                <div className="icon mr-4 text-2xl">
+                  <i className="fas fa-check-circle text-secondary-600"></i>
+                </div>
+                <h4 className="font-bold text-lg mb-2">
+                Corporate Lets & Serviced Accommodation
+                </h4>
+                <p className="text-gray-700">Providing housing solutions for professionals, contractors, and businesses.</p>
+              </div>
+
+              <div className="icon-box mb-6 flex items-center flex-wrap">
+                <div className="icon mr-4 text-2xl">
+                  <i className="fas fa-check-circle text-secondary-600"></i>
+                </div>
+                <h4 className="font-bold text-lg mb-2">
+                Investment Opportunities
+                </h4>
+                <p className="text-gray-700">Helping investors grow their portfolios with strategic property acquisitions.</p>
+              </div>
+
             </div>
           </div>
         </div>
@@ -115,35 +117,19 @@ function About() {
               <ul className="list-none p-0">
                 <li className="mb-4 flex items-center">
                     <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                    <span>Central Milton Keynes</span>
+                    <span>Milton Keynes</span>
                   </li>
                 <li className="mb-4 flex items-center">
                   <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                  <span>Bletchley</span>
+                  <span>Bedford</span>
                 </li>
                 <li className="mb-4 flex items-center">
                     <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                    <span>Luton</span>
+                    <span>Northampton</span>
                   </li>
                 <li className="mb-4 flex items-center">
                   <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                  <span>Wolverton</span>
-                </li>
-                <li className="mb-4 flex items-center">
-                    <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                    <span>Stony Stratford</span>
-                  </li>
-                <li className="mb-4 flex items-center">
-                  <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                  <span>Newport Pagnell</span>
-                </li>
-                <li className="mb-4 flex items-center">
-                    <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                    <span>Olney</span>
-                  </li>
-                <li className="mb-4 flex items-center">
-                  <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                  <span>Woburn Sands</span>
+                  <span>West London</span>
                 </li>
               </ul>
             </div>

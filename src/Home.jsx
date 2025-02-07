@@ -24,7 +24,7 @@ function Home() {
         <div className="hero-content">
           <div>
             <p className="text-white text-xl">Welcome to MKWise Homes</p>
-            <h2 className="text-white uppercase font-bold text-xl md:text-5xl py-6 sm:py-8">Find your next home</h2>
+            <h2 className="text-white uppercase font-bold text-xl md:text-5xl py-6 sm:py-8">Landlords Required</h2>
             <Link to="/about">
               <button className="theme-btn bg-primary-600 border-primary-600 text-white font-bold py-2 px-4 rounded transition-colors duration-300 hover:bg-white hover:text-primary-600 border-2">
                 <span className="txt">About Us</span>
@@ -33,36 +33,135 @@ function Home() {
           </div>
         </div>
       </section>
-      
 
-      {/* About Section */}
-
+      {/* About section */}
       <section className="our-story py-16" data-aos="fade-up" data-aos-delay="100">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-4">Our Story</h2>
               <p className="text-lg text-gray-700">
-                MKWise Homes was founded on the belief that everyone deserves a place to call home. With a focus on customer satisfaction and a passion for property, we&apos;ve been helping individuals and families find their dream homes.
+                MKWise Homes was founded with a mission to provide landlords with a hassle-free and secure property management experience. We understand the challenges of renting out properties, from tenant uncertainties to financial risks. That’s why we specialise in offering a guaranteed rent scheme, ensuring landlords receive a reliable, fixed income—regardless of tenant occupancy or payment status.
                 <br />
                 <br />
-                With years of experience in the real estate market, MKWise Homes has established a strong reputation for providing exceptional service and tailored solutions. Our team of dedicated property experts possesses in-depth knowledge of the local market, ensuring that we can guide you towards the perfect property match.
+                With years of expertise in the property market, we have built a reputation for professionalism, integrity, and tailored solutions. Our strong partnerships with local authorities allow us to provide secure, long-term tenancies, giving landlords peace of mind while maximising their investments.
                 <br />
                 <br />
-                We understand that buying or selling a property can be a significant decision. That&apos;s why we&apos;re committed to providing personalised support and guidance every step of the way.
+                Our Guaranteed Rent Scheme ensures that landlords get paid on time, every month, with no gaps—even during void periods. We take care of tenant sourcing, property management, and compliance, so you don’t have to worry about late payments, unexpected costs, or legal complexities. Whether you have a single property or a portfolio, our scheme guarantees financial stability while offering a completely hands-off experience.
                 <br />
                 <br />
-                Based in Milton Keynes and Greater London, we have an intimate understanding of these dynamic property markets. Our local expertise allows us to provide valuable insights and guidance, whether you&apos;re looking to buy, sell, or invest in property in these areas.
+                Based in Milton Keynes and Greater London, we have in-depth knowledge of these thriving property markets. Whether you own a single property or multiple investments, our goal is to simplify property management and eliminate the common stresses of letting.
                 <br />
                 <br />
-                Whether you&apos;re a first-time buyer, seasoned investor, or looking to relocate, we&apos;re here to help you find the perfect property and make your transition smooth and stress-free.
-                <br />
-                <br />
-                At MKWise Homes, we&apos;re more than just a property solutions provider. We&apos;re your partners in finding the perfect place to build your future.
+                At MKWise Homes, we’re not just a property management company—we’re your trusted partner in securing financially stable and risk-free rental income.
               </p>
             </div>
             <div className="md:w-1/2">
               <img src={HomeImg1} alt="About Us img" className="w-full rounded-lg shadow-md" />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* end of about section */}
+
+      {/* Comparison section */}
+      <section className="comparison-table py-16" data-aos="fade-up" data-aos-delay="150">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold mb-8 text-center text-primary-600">Guaranteed Rent vs Traditional Rent</h2>
+          <div className="flex flex-col">
+            <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
+              <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+                <div className="overflow-hidden">
+                  <table className="min-w-full text-center">
+                    <thead>
+                    <tr className="bg-gray-200">
+                      <th className="px-4 py-2 text-lg font-semibold"></th>
+                      <th className="px-4 py-2 text-lg font-semibold">Traditional Let Only</th>
+                      <th className="px-4 py-2 text-lg font-semibold">Traditional Let & Managed</th>
+                      <th className="py-2 text-xl font-bold uppercase">
+                        <span className="block">Guaranteed</span>
+                        <span className="block">Rent</span>
+                      </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-b">
+                        <td className="px-4 py-2 font-medium">Marketing Your Property</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                      </tr>
+                      <tr className="border-b">
+                        <td className="px-4 py-2 font-medium">Locating A Tenant</td>
+                        <td></td>
+                        <td>✓</td>
+                        <td>✓</td>
+                      </tr>
+                      <tr className="border-b">
+                        <td className="px-4 py-2 font-medium">Regular Inspections Of Your Property</td>
+                        <td></td>
+                        <td></td>
+                        <td>✓</td>
+                      </tr>
+                      <tr className="border-b">
+                        <td className="px-4 py-2 font-medium">Maintenance & Repair</td>
+                        <td></td>
+                        <td></td>
+                        <td>✓</td>
+                      </tr>
+                      <tr className="border-b">
+                        <td className="px-4 py-2 font-medium">Income During Void Periods</td>
+                        <td></td>
+                        <td></td>
+                        <td>✓</td>
+                      </tr>
+                      <tr className="border-b">
+                        <td className="px-4 py-2 font-medium">Rental Value PCM</td>
+                        <td>£1,600</td>
+                        <td>£1,600</td>
+                        <td className="font-bold text-primary-600">£1,800</td>
+                      </tr>
+                      <tr className="border-b">
+                        <td className="px-4 py-2 font-medium">Rental Value Per Annum</td>
+                        <td>£19,200</td>
+                        <td>£19,200</td>
+                        <td className="font-bold text-primary-600">£21,600</td>
+                      </tr>
+                      <tr className="border-b">
+                        <td className="px-4 py-2 font-medium">Typical Voids (One Month)</td>
+                        <td>£1,600</td>
+                        <td>£1,600</td>
+                        <td>£0</td>
+                      </tr>
+                      <tr className="border-b">
+                        <td className="px-4 py-2 font-medium">Tenant Find Fee @ 10%</td>
+                        <td>£1,920</td>
+                        <td>£1,920</td>
+                        <td className="font-bold text-primary-600">£0</td>
+                      </tr>
+                      <tr className="border-b">
+                        <td className="px-4 py-2 font-medium">Property Management Fee @ 12%</td>
+                        <td></td>
+                        <td>£960</td>
+                        <td></td>
+                      </tr>
+                      <tr className="border-b">
+                        <td className="px-4 py-2 font-medium">Net Income PCM</td>
+                        <td>£1,306</td>
+                        <td>£1,226</td>
+                        <td className="font-bold text-primary-600">£1,800</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-2 font-medium">Net Income PA</td>
+                        <td>£15,680</td>
+                        <td>£14,720</td>
+                        <td className="font-bold text-primary-600">£21,600</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p className="text-center mb-4">* Based on a 2 or 3 bedroom with an advertised rate of £1,600pcm</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -123,35 +222,19 @@ function Home() {
                     <ul className="list-none p-0">
                       <li className="mb-4 flex items-center">
                           <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                          <span>Central Milton Keynes</span>
+                          <span>Milton Keynes</span>
                         </li>
                       <li className="mb-4 flex items-center">
                         <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                        <span>Bletchley</span>
+                        <span>Bedford</span>
                       </li>
                       <li className="mb-4 flex items-center">
-                          <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                          <span>Luton</span>
-                        </li>
-                      <li className="mb-4 flex items-center">
                         <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                        <span>Wolverton</span>
+                        <span>Northampton</span>
                       </li>
                       <li className="mb-4 flex items-center">
-                          <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                          <span>Stony Stratford</span>
-                        </li>
-                      <li className="mb-4 flex items-center">
                         <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                        <span>Newport Pagnell</span>
-                      </li>
-                      <li className="mb-4 flex items-center">
-                          <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                          <span>Olney</span>
-                        </li>
-                      <li className="mb-4 flex items-center">
-                        <i className="fas fa-check-circle text-secondary-600 mr-3"></i>
-                        <span>Woburn Sands</span>
+                        <span>West London</span>
                       </li>
                     </ul>
                   </div>
