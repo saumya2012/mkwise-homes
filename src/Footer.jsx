@@ -1,5 +1,6 @@
 import './footer.css';
 import logo from './assets/logo-xl.svg';
+import { Link } from "react-router-dom";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -25,13 +26,19 @@ function Footer() {
           </div>
           <ul className="list-none p-0">
             <li className="mb-2">
-              <a href="/" className="text-primary-600 hover:text-secondary-600 font-semibold">Home</a>
+              <Link to="/">
+                <span className="text-primary-600 hover:text-secondary-600 font-semibold">Home</span>
+              </Link>
             </li>
             <li className="mb-2">
-              <a href="/about" className="text-primary-600 hover:text-secondary-600 font-semibold">About Us</a>
+              <Link to="/about">
+                <span className="text-primary-600 hover:text-secondary-600 font-semibold">About Us</span>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="text-primary-600 hover:text-secondary-600 font-semibold">Contact Us</a>
+              <Link to="/contact">
+                <span className="text-primary-600 hover:text-secondary-600 font-semibold">Contact Us</span>
+              </Link>
             </li>
           </ul>
         </div>
@@ -49,7 +56,7 @@ function Footer() {
             </div>
             <div className="flex items-center mb-2">
               <i className="fa-solid fa-envelope mr-2"></i> 
-              <a href="mailto:info@asklettings.co.uk" className="cursor-pointer break-all">contact@mkwisefinancial.com</a>
+              <a href="mailto:contact@mkwisehomes.co.uk" className="cursor-pointer break-all">contact@mkwisehomes.co.uk</a>
             </div>
             <p className="flex items-start">
               <i className="fas fa-map-marker-alt mr-2 mt-1"></i>

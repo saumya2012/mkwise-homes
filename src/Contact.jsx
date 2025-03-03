@@ -1,5 +1,6 @@
 import './contact.css';
 import Breadcrumbs from "./Breadcrumbs";
+import ContactForm from './ContactForm';
 
 function Contact() {
   return (
@@ -40,7 +41,7 @@ function Contact() {
               <h2 className="text-lg font-semibold pl-2">Send Us An Email</h2>
             </div>
             <p>
-              <a href="mailto:contact@mkwisefinancial.com" className="text-white cursor-pointer">contact@mkwisefinancial.com</a>
+              <a href="mailto:contact@mkwisehomes.co.uk" className="text-white cursor-pointer">contact@mkwisehomes.co.uk</a>
             </p>
           </div>
           <div className="contact-info bg-primary-600 text-white p-6 rounded-lg hover:bg-secondary-600 transition-colors duration-1000 ease-in-out shadow-2xl">
@@ -56,6 +57,8 @@ function Contact() {
           </div>
         </div>
       </section>
+
+      <ContactForm />
 
       <section className="container mx-auto map-container py-16">
       <iframe

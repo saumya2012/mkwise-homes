@@ -175,39 +175,21 @@ function Home() {
             </div>
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-4">What We Offer</h2>
-              <h3 className="text-2xl font-semibold mb-6">
-                Your Property Journey, Simplified
-              </h3>
+              <h3 className="text-2xl font-semibold mb-6">Your Property Journey, Simplified</h3>
+              <p className="text-lg text-gray-700 mb-6">In addition to property management services, we provide complete solution to landlords. We provide 360 solution to landlords which starts with property sourcing -&gt; Mortgages -&gt; Conveyancing(Legal assistance) -&gt; Guaranteed rent -&gt; Accounting with the help of our group companies and partners.</p>
+
+              <h3 className="text-2xl font-semibold mb-6">Why Choose MKWise Homes?</h3>
+              <p className="text-lg text-gray-700 mb-6">At MKWise Homes, we&apos;re passionate about delivering exceptional property solutions, including our <span className="font-bold">guaranteed rent services</span>. Our dedicated team provides expert guidance, outstanding service, and a seamless experience, ensuring your property journey is smooth and stress-free.
+              <br />
+              <br />
+              We believe in building long-lasting relationships with our clients, based on trust, transparency, and mutual respect. Your satisfaction is our top priority.</p>
+
+              <h3 className="text-2xl font-semibold mb-6">How We Help you?</h3>
               <p className="text-lg text-gray-700 mb-6">
-                From property search and selection to mortgage advice and legal
-                assistance, we&apos;re with you every step of the way.
-              </p>
-
-              <h3 className="text-2xl font-semibold mb-6">
-                Why Choose MKWise Homes?
-              </h3>
-              <p className="text-lg text-gray-700 mb-6">
-                We&apos;re passionate about helping you find the perfect property that
-                meets your needs and aspirations. Our team is dedicated to
-                providing exceptional service, expert guidance, and a seamless
-                experience.
-              </p>
-
-              <h3 className="text-2xl font-semibold mb-6">
-                Our Commitment to You
-              </h3>
-              <p className="text-lg text-gray-700 mb-6">
-                We believe in building long-lasting relationships with our
-                clients, based on trust, transparency, and mutual respect. Your
-                satisfaction is our top priority.
-              </p>
-
-              <h3 className="text-2xl font-semibold mb-6">
-                How We Help You Find Your Dream Home
-              </h3>
-              <p className="text-lg text-gray-700 mb-4">We understand that searching for a new home can be overwhelming. That&apos;s why we offer a comprehensive suite of services to guide you through every step of the process.</p>
-              <p className="text-lg mb-6">From property search and viewings to mortgage advice and legal assistance, we&apos;re your one-stop shop for all your property needs.</p>
-
+              We understand the pain of landlords and its management which involves different services starting from searching for a new home to the stage of renting it and management.That&apos;s why we offer a comprehensive suite of services to guide you through every step of the process.
+              <br />
+              <br />
+              From property sourcing to mortgage advice, legal assistance, accounting, guaranteed rent to property management, we&apos;re your one-stop shop for all your property needs.</p>
             </div>
           </div>
         </div>
@@ -249,9 +231,7 @@ function Home() {
       <section className="cta py-16">
         <div className="container mx-auto px-6">
           <div className="bg-primary-600 text-white p-8 rounded-lg text-center">
-            <p className="text-xl mb-4">
-              Ready to find your dream home? We&apos;re here to help!
-            </p>
+            <p className="text-xl mb-4">Ready to rent with a complete peace of mind?</p>
             <p className="mb-6">Contact us today for a free consultation:</p>
             <Link to="/contact">
               <button className="bg-white text-primary-600 font-bold py-2 px-4 rounded hover:bg-secondary-600 hover:text-white transition-colors duration-300">

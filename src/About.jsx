@@ -143,9 +143,7 @@ function About() {
       <section className="cta py-16" data-aos="fade-up" data-aos-delay="300">
         <div className="container mx-auto px-6">
           <div className="bg-primary-600 text-white p-8 rounded-lg text-center">
-            <p className="text-xl mb-4">
-              Ready to find your dream home? We&apos;re here to help!
-            </p>
+            <p className="text-xl mb-4">Ready to rent with a complete peace of mind?</p>
             <p className="mb-6">Contact us today for a free consultation:</p>
             <Link to="/contact">
               <button className="bg-white text-primary-600 hover:bg-secondary-600 hover:text-white font-bold py-2 px-4 rounded">
